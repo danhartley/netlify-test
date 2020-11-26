@@ -1,0 +1,1 @@
+Require this step before git add . --> git init
