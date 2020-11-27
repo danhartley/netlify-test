@@ -1,20 +1,14 @@
-const Home = ({pokemon}) => {
+import Head from 'next/head';
+
+const Home = () => {
     return (
         <>
-            <div>Dowdy {pokemon?.name}!</div>
-            <img src={pokemon?.sprites.front_default} />
+            <Head>
+                <title>Home page, boring</title>
+            </Head>
+            <div>Boring!</div>
         </>
     )
 }
 
-export const getStaticProps = async () => {
-    const res = await fetch('https://pokeapi.co/api/v2/pokemon/charmander');
-    const pokemon = await res.json();
-    return {
-        props: {
-            pokemon
-        }
-    }
-};
-
-export default Home
+export default Home;

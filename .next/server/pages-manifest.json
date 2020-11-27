@@ -1,7 +1,9 @@
 {
+  "/fun/[fun]": "pages/fun/[fun].js",
+  "/": "pages/index.html",
+  "/rum": "pages/rum.html",
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
-  "/fun": "pages/fun.js"
+  "/404": "pages/404.html"
 }
